@@ -41,6 +41,7 @@ class App extends Component {
         <MySelect/>
         <h3>User info</h3>
         <p>Name: {this.state.userName}</p>
+        <p>Age: {this.state.userAge}</p>
       </div>
     );
   }
