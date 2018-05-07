@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import logo from '../../images/logo.svg';
+import './style.css';
 
 /* Components */
-import MySelect from './Select';
+import MySelect from '../Select';
 
 class App extends Component {
   render() {
@@ -11,12 +11,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Testing staging</h1>
           <h1 className="App-title">Crap del bueno hermano</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-          Aca agrega tu codigo que seguro esta re robado.
+          Zarpado de argentino.
         </p>
         <MySelect/>
       </div>
