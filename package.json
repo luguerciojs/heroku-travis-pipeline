@@ -2,17 +2,28 @@
   "name": "heroku-travis-pipeline",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-app-rewired": "1.5.2"
+  },
   "dependencies": {
+    "enzyme": "3.3.0",
+    "enzyme-adapter-react-16": "1.1.1",
     "react": "16.3.2",
+    "react-app-rewire-styled-components": "3.0.2",
     "react-dom": "16.3.2",
+    "react-redux": "5.0.7",
     "react-scripts": "1.1.4",
     "react-select": "1.2.0",
+    "react-test-renderer": "16.3.2",
+    "redux": "4.0.0",
+    "redux-actions": "2.3.2",
+    "styled-components": "3.2.6",
     "superagent": "3.8.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
   }
 }

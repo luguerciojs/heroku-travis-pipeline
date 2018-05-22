@@ -7,6 +7,7 @@ import getUser from '../../api/user';
 
 /* Components */
 import MySelect from '../Select';
+import Title from '../Title';
 
 class App extends Component {
 
@@ -31,6 +32,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <Title />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Hola que tal</h1>
